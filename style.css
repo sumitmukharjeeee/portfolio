@@ -5,6 +5,22 @@
   padding: 0;
 }
 
+.navbar {
+  display: flex;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* .edu-vic-wa-nt-hand-<uniquifier> {
   font-family: "Edu VIC WA NT Hand", cursive;
