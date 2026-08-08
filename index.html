@@ -8,16 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <main>
-    <!-- <h1>Sumit Mukharjee - All things Data and Analytics(for now)</h1>
-    <p>Placeholder boilerplate — ready to build.</p> -->
-
+    <!-- Navbar Starts -->
     <nav class="navbar">
-
       <ul class="navbar-list">
         <li><a href="#">INITIATE</a></li>
         <li><a href="#">ABOUT</a></li>
@@ -25,9 +25,45 @@
         <li><a href="#">SNAPSHOTS</a></li>
       </ul>
     </nav>
+    <!-- Navbar Ends -->
 
-    <section class="hero">
+    <!-- Hero Section Starts -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero__container">
+        <!-- Hero Content -->
+        <div class="hero__content">
+          <p class="hero__eyebrow">
+            Computer Science Grad <span>1.0</span>
+            <span class="hero__status">— Online</span>
+          </p>
+          <h1 class="hero__title" id="hero-title">
+            <span>Sumit</span> Mukharjee
+          </h1>
+          <p class="hero__description">
+            I’m aspiring to become a <strong>Data Analyst</strong> and much more.
+            I’m building my skills, documenting my journey, and sharing the
+            projects I create along the way.
+          </p>
+          <div class="hero__actions">
+            <a href="#journey" class="btn btn--primary">
+              See My Journey
+            </a>
+            <a href="#contact" class="btn btn--secondary">
+              Contact Me
+            </a>
+          </div>
 
+        </div>
+        <!-- Profile Image -->
+        <div class="hero__visual">
+          <div class="hero__image-wrapper">
+            <img src="assets/sumit-mukharjee.jpg" alt="Portrait of Sumit Mukharjee" class="hero__image" width="520"
+              height="520" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section Ends -->
   </main>
   <script src="script.js"></script>
 </body>
